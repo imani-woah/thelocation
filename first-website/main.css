@@ -1,0 +1,35 @@
+body {
+    background:purple;
+    color:greenyellow;
+    font-family:papyrus;
+}
+
+p {
+    background:cyan;
+    color:#ff00ae;
+    border:10px ridge greenyellow;
+    padding:10px;
+    margin:10px;
+}
+
+p:hover {
+    color:white;
+    background:red;
+}
+
+.banner {
+    text-align:center;
+    font-size:400%;
+    border-style:dotted;
+    border-color:black;
+}
+
+a {
+    color:yellow;
+    font-style:italic;
+    font-weight:bolder;
+}
+
+a:hover {
+    color:magenta;
+}
