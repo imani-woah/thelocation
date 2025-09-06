@@ -1,0 +1,25 @@
+body  {
+  background-image: url("prunsel.jpg");
+  background-size: 250px;
+  background-color: red;
+}
+
+.tumblr {
+    background:white;
+    color: #36465d;
+    margin: auto;
+    margin-top: 250px;
+    width: 40%;
+    padding:15px;
+    text-align: center;
+}
+
+ul {
+  background: white;
+  color: #36465d;
+  margin: auto;
+  width: 40%;
+  padding:15px;
+  text-align: center;
+  list-style-position: inside;
+}
