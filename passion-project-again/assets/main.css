@@ -4,7 +4,7 @@
 
 body  {
   /* background-image: url("bi-flag-background.png"); */
-  background-image:url("bi-flag-bg.png");
+  background-image: url(bi-flag-bg.png);
   background-size: 100%;
   background-color: #26237a;
   font-family:Verdana;
@@ -69,7 +69,7 @@ a {
 }
 
 .two {
-  color:#26237a;
+  color:#e556c4;
 }
 
 a:hover {
@@ -136,18 +136,15 @@ a:hover {
 }
 
 .banner {
-    background:#26237a;
-    color:white;
+    background:#7754df;
+    color:#26237a;
     text-align:center;
     font-size:250%;
     border-width:10px;
     border-style:solid;
     border-color:#e556c4;
-    border-radius:10px;
-    margin:auto;
-    width:50%;
+    width:100%;
     padding:15px;
-    margin-top:50px;
     margin-bottom:50px;
 }
 
@@ -156,6 +153,10 @@ textarea {
     margin-top:30px;
     margin-left: auto;
     margin-right: auto;
+    width:40%;
+    resize:horizontal;
+    background:#e556c4;
+    border: 5px solid #7754df;
 }
 
 .return {
