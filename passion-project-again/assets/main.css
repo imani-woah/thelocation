@@ -80,7 +80,7 @@ a:hover {
     background:none;
     position:fixed;
     bottom:0;
-    right:0;
+    left:0;
     margin:0;
     animation-name: spin;
     animation-duration: 5000ms;
@@ -101,22 +101,21 @@ a:hover {
     background:#26237a;
     color: white;
     margin: auto;
-    margin-top:20px;
+    margin-top:0px;
     width: 25%;
-    padding:15px;
+    padding:20px;
     text-align: center;
-    border-radius:10px;
-    border:solid;
+    border:dotted;
     border-width:5px;
-    border-color:#26237a;
+    border-color:white;
 }
 
 .choice2 {
     background:#26237a;
     color: white;
     margin: auto;
-    margin-top:20px;
-    width: 40%;
+    margin-top:15px;
+    width: 25%;
     padding:15px;
     text-align: center;
     border-radius:10px;
@@ -129,9 +128,9 @@ a:hover {
     background:#b454df;
     position:fixed;
     bottom:280px;
-    right:20px;
+    left:20px;
     margin:0;
-    rotate:20deg;
+    rotate:-20deg;
     color:#26237a;
 }
 
@@ -145,6 +144,8 @@ a:hover {
     border-color:#e556c4;
     width:100%;
     padding:15px;
+    margin:auto;
+    margin-top:50px;
     margin-bottom:50px;
 }
 
