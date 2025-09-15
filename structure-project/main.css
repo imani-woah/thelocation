@@ -1,0 +1,46 @@
+* { 
+    box-sizing:border-box;
+}
+
+body {
+    background-image:url(images/0start.JPG);
+    background-size:100vw;
+}
+
+.left {
+    position:absolute;
+    left:225px;
+    bottom:200px;
+}
+
+img {
+    max-width:100%;
+}
+
+/* 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    background-image: url(images/snow.jpg);
+
+}
+
+.sled {
+    background-image: url(images/sled.png);
+    position:absolute;
+    bottom: 15mm;
+    right: 600px;
+}
+.main-container {
+    background:rgb(255, 255, 255);
+    width:100vw;
+    height:20vh;
+    position: absolute;
+    bottom: 0mm;
+    
+}
+
+*/

@@ -1,0 +1,50 @@
+* {
+    box-sizing:border-box;
+}
+
+/* flexbox trial */
+
+img {
+    max-width:100%;
+}
+
+.container {
+    background:lightcyan;
+    padding:10px;
+    display:flex;
+
+    /* 
+    Flex-direction will determine the MAIN axis:
+    row = horizontal main axis (default)
+    column = vertical main axis
+    */
+    flex-direction:row;
+
+    flex-wrap:wrap;
+    
+    /* aligns items along the main axis */
+    justify-content:center;
+
+    height:400px;
+
+    /* align-items is used for single line, non-wrapping flexboxes. it aligns along the cross axis */
+    align-items:center;
+
+    /* align-content is used for multi line, wrapping flexboxes. it aligns along the cross axis */
+    align-content:center;
+
+    gap:10px;
+}
+
+.item {
+    background:palevioletred;
+    padding:10px;
+    border:1px solid;
+    
+    width:150px;
+    height:100px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
