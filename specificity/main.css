@@ -1,0 +1,43 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background:lightskyblue;
+}
+
+img {
+    max-width:100%;
+}
+
+header {
+    background:lightgoldenrodyellow;
+    padding:10px;
+    margin:10px;
+}
+
+main {
+    background:lavender;
+    padding:10px;
+    margin:10px;
+}
+
+.class {
+    background:rosybrown;
+}
+
+/* id is the most specific indentifier declaration */
+#id {
+    background:palevioletred;
+}
+
+footer {
+    background:mistyrose;
+    padding:10px;
+    margin:10px;
+}
+
+/* rules declared lower in the stylesheet are more specific */
+footer {
+    background:peachpuff;
+}

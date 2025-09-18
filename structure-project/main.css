@@ -3,8 +3,9 @@
 }
 
 body {
-    background-image:url(images/0start.JPG);
-    background-size:100vw;
+    /* background-image:url(images/0start.png); 
+    background-size:100vw;*/
+    background:black;
 }
 
 .left {
@@ -13,34 +14,89 @@ body {
     bottom:200px;
 }
 
+.right {
+    position:absolute;
+    left:500px;
+    bottom:250px;
+}
+
+.text {
+    position:absolute;
+    right:450px;
+    top:300px;
+    color:white;
+}
+
+.text1b {
+    position:absolute;
+    right:500px;
+    bottom:150px;
+    color:white;
+}
+
+.text1c {
+    position:absolute;
+    right:350px;
+    bottom:200px;
+    color:white;
+}
+
+.text1d {
+    position:absolute;
+    right:350px;
+    bottom:200px;
+    color:white;
+}
+
+.text1e {
+    position:absolute;
+    left:600px;
+    bottom:180px;
+    color:white;
+}
+
+.text1f {
+    position:absolute;
+    left:300px;
+    top:180px;
+    color:white;
+}
+
+.text1g {
+    position:absolute;
+    left:360px;
+    top:480px;
+    color:white;
+}
+
+.text2 {
+    position:absolute;
+    left:440px;
+    top:420px;
+    color:white;
+}
+
+.text2a {
+    position:absolute;
+    left:480px;
+    top:320px;
+    color:white;
+}
+
+.text2b {
+    position:absolute;
+    right:460px;
+    top:450px;
+    color:white;
+}
+
+.text2c {
+    position:absolute;
+    right:115px;
+    top:230px;
+    color:white;
+}
+
 img {
     max-width:100%;
 }
-
-/* 
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin:0;
-    background-image: url(images/snow.jpg);
-
-}
-
-.sled {
-    background-image: url(images/sled.png);
-    position:absolute;
-    bottom: 15mm;
-    right: 600px;
-}
-.main-container {
-    background:rgb(255, 255, 255);
-    width:100vw;
-    height:20vh;
-    position: absolute;
-    bottom: 0mm;
-    
-}
-
-*/
