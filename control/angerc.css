@@ -4,6 +4,7 @@
 
 body {
     background:#69696e;
+    overflow:hidden;
 }
 
 img {
@@ -64,6 +65,30 @@ a:hover {
     bottom:2%;
 }
 
+#wrath2 {
+    background:#525258;
+    display:flex;
+    margin:10px;
+    padding:10px;
+    width:10vw;
+    height:10vh;
+    position: absolute;
+    top:30%;
+    right:45%;
+}
+
+#wrath3 {
+    background:#525258;
+    display:flex;
+    margin:10px;
+    padding:10px;
+    width:10vw;
+    height:10vh;
+    position: absolute;
+    left:30%;
+    bottom:20%;
+}
+
 #ire {
     background:#525258;
     display:flex;
@@ -76,6 +101,42 @@ a:hover {
     left:20%;
 }
 
+#ire1 {
+    background:#525258;
+    display:flex;
+    margin:10px;
+    padding:10px;
+    width:10vw;
+    height:10vh;
+    position: absolute;
+    top:1%;
+    left:70%;
+}
+
+#ire2 {
+    background:#525258;
+    display:flex;
+    margin:10px;
+    padding:10px;
+    width:10vw;
+    height:10vh;
+    position: absolute;
+    bottom:35%;
+    right:3%;
+}
+
+#ire3 {
+    background:#525258;
+    display:flex;
+    margin:10px;
+    padding:10px;
+    width:10vw;
+    height:10vh;
+    position: absolute;
+    top:20%;
+    left:23%;
+}
+
 #fury {
     background:#525258;
     display:flex;
@@ -86,4 +147,40 @@ a:hover {
     position: absolute;
     top:80%;
     left:50%;
+}
+
+#fury1 {
+    background:#525258;
+    display:flex;
+    margin:10px;
+    padding:10px;
+    width:10vw;
+    height:10vh;
+    position: absolute;
+    bottom:20%;
+    left:4%;
+}
+
+#fury2 {
+    background:#525258;
+    display:flex;
+    margin:10px;
+    padding:10px;
+    width:10vw;
+    height:10vh;
+    position: absolute;
+    top:38%;
+    left:8%;
+}
+
+#fury3 {
+    background:#525258;
+    display:flex;
+    margin:10px;
+    padding:10px;
+    width:10vw;
+    height:10vh;
+    position: absolute;
+    top:20%;
+    right:12%;
 }

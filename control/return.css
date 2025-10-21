@@ -24,3 +24,20 @@ a:hover {
     transition: 1s;
     text-decoration: none;
 }
+
+.label {
+    position:fixed;
+    top:35%;
+    left:18%;
+    margin:0;
+    animation: spin 4s infinite linear;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}

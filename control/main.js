@@ -38,18 +38,72 @@ $(".live-btn").click(function () {
 
   $(document).ready(function(){
   $("#wrath").mouseenter(function(){
-    alert("FUCK YOU");
-  });
-});
-
-  $(document).ready(function(){
-  $("#ire").mouseenter(function(){
     alert("FUCK EVERYTHING");
   });
 });
 
   $(document).ready(function(){
+  $("#wrath1").mouseenter(function(){
+    alert("FUCK EVERYTHING");
+  });
+});
+
+  $(document).ready(function(){
+  $("#wrath2").mouseenter(function(){
+    alert("FUCK EVERYTHING");
+  });
+});
+
+  $(document).ready(function(){
+  $("#wrath3").mouseenter(function(){
+    alert("FUCK EVERYTHING");
+  });
+});
+
+  $(document).ready(function(){
+  $("#ire").mouseenter(function(){
+    alert("FUCK YOU");
+  });
+});
+
+  $(document).ready(function(){
+  $("#ire1").mouseenter(function(){
+    alert("FUCK YOU");
+  });
+});
+
+  $(document).ready(function(){
+  $("#ire2").mouseenter(function(){
+    alert("FUCK YOU");
+  });
+});
+
+  $(document).ready(function(){
+  $("#ire3").mouseenter(function(){
+    alert("FUCK YOU");
+  });
+});
+
+  $(document).ready(function(){
   $("#fury").mouseenter(function(){
+    alert("FUCK THIS");
+  });
+});
+
+  $(document).ready(function(){
+  $("#fury1").mouseenter(function(){
+    alert("FUCK THIS");
+  });
+});
+
+  $(document).ready(function(){
+  $("#fury2").mouseenter(function(){
+    alert("FUCK THIS");
+  });
+});
+
+  $(document).ready(function(){
+  $("#fury3").mouseenter(function(){
     alert("FUCK THIS");
   });
 });
