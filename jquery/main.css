@@ -1,0 +1,73 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    color:white;
+    background:darkmagenta;
+    margin:0;
+    transition:background .3s;
+}
+
+body.dark {
+    background:darkslateblue;
+}
+
+img {
+    max-width:100%;
+}
+
+.buttons {
+    position:fixed;
+    top:10px;
+    left:10px;
+}
+
+.container {
+    height:100vh;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.box {
+    width:100px;
+    height:100px;
+    background:skyblue;
+    transition:background .3s;
+    animation: spin 5s linear infinite;
+    animation-play-state:paused;
+}
+
+.box.dark {
+    background:darkblue;
+}
+
+.box.spin {
+    animation-play-state:running;
+}
+
+@keyframes spin {
+    0% {
+        rotate:0deg;
+    }
+    100% {
+        rotate:360deg;
+    }
+}
+
+.saul {
+    width:130px;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    display:none;
+}
+
+.reveal {
+    display:block;
+}
+
+img {
+    mix-blend-mode:color-burn;
+}

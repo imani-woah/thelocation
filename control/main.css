@@ -1,0 +1,31 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background:#69696e;
+}
+
+img {
+    max-width:100%;
+}
+
+body {
+    color:ghostwhite;
+}
+
+a {
+    display:none;
+    color:#2d2d4d;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a7a7e3;
+    transition: 1s;
+    text-decoration: none;
+}
+
+.show {
+    display:block;
+}

@@ -1,0 +1,26 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background:ghostwhite;
+}
+
+img {
+    max-width:100%;
+}
+
+body {
+    color:#69696e;
+}
+
+a {
+    color:#8383bc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2d2d4d;
+    transition: 1s;
+    text-decoration: none;
+}

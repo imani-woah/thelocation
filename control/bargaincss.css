@@ -1,0 +1,89 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background:#69696e;
+}
+
+img {
+    max-width:100%;
+}
+
+body {
+    color:ghostwhite;
+}
+
+a {
+    color:#2d2d4d;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a7a7e3;
+    transition: 1s;
+    text-decoration: none;
+}
+
+.show {
+    display:block;
+}
+
+#draggable {
+    background: black;
+    width: 100px;
+    height: 100px;
+    padding: 0.5em;
+    margin: 10px 10px 10px 0;
+    display:inline-block;
+}
+
+#draggable1 {
+    background: black;
+    display:flex;
+    width: 100px;
+    height: 100px;
+    padding: 0.5em;
+    margin: 10px 10px 10px 0;
+    display:inline-block;
+}
+
+#draggable2 {
+    display:flex;
+    background: black;
+    width: 100px;
+    height: 100px;
+    padding: 0.5em;
+    margin: 10px 10px 10px 0;
+    display:inline-block;
+}
+
+#droppable {
+    background:white;
+    width: 150px;
+    display:flex;
+    height: 150px;
+    padding: 0.5em;
+    margin: 10px;
+    color:black;
+}
+
+.ghost {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 20s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+    75% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

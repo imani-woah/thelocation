@@ -1,0 +1,23 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background:#69696e;
+    overflow:scroll;
+    width:fit-content;
+    color:ghostwhite;
+}
+
+img {
+    max-width:100%;
+}
+
+.choices {
+    display:flex;
+    flex-wrap:nowrap;
+}
+
+.button {
+    text-align:center;
+}
