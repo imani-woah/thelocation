@@ -1,0 +1,84 @@
+* {
+    box-sizing:border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+body {
+    margin:0;
+}
+
+.container {
+    background:lightcyan;
+    /* vh means viewport height! */
+    height:100vh;
+    /* no need for width, it's a block element so it's already 100% */
+    display:flex;
+    flex-direction:column;
+    padding:0px;
+    gap:10px;
+}
+
+.top {
+    background:lightseagreen;
+    height:25%;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    gap:20px;
+    padding:50px;
+}
+
+.top-item {
+    background:palevioletred;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.top-item:hover {
+    background:red;
+}
+
+.bottom {
+    background:lightyellow;
+    height:75%;
+    display:flex;
+    gap:10px;
+}
+
+.left {
+    background:lightblue;
+    width:50%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.left-item {
+    background:palevioletred;
+    width:20%;
+    height:20%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.right {
+    background:lightslategray;
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.right-item {
+    background:lightseagreen;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}

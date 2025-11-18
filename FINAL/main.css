@@ -2,6 +2,11 @@
     box-sizing:border-box;
 }
 
+@font-face {
+    font-family: 'IJT'; /*a name to be used later*/
+    src: url('assets/Imanifont_Regular.woff'); /*URL to font*/
+}
+
 body {
     background:#ebd4f7;
     margin:0;
@@ -15,7 +20,7 @@ img {
 .container {
     background:#f4e8fb;
     /* vh means viewport height! */
-    height:200vh;
+    height:400vh;
     /* no need for width, it's a block element so it's already 100% */
     display:flex;
     flex-direction:column;
@@ -27,9 +32,11 @@ img {
 .header {
   overflow: hidden;
   background-color: #221744;
-  padding: 20px 10px;
+  padding: 0px 0px;
   position:sticky;
   top: 0;
+  font-family: 'IJT';
+  align-items: center;
 }
 
 /* Style the header links */
@@ -97,6 +104,8 @@ img {
     justify-content:center;
     align-items:center;
     text-align:center;
+    font-family: 'IJT';
+    font-size:200%;
 }
 
 .scroll {
@@ -107,13 +116,15 @@ img {
     justify-content:center;
     align-items:center;
     text-align:center;
+    font-family: 'IJT';
+    font-size:130%;
 }
 
 /* Style the header with a grey background and some padding */
 .workHeader {
   overflow: hidden;
   background-color: #221744;
-  padding: 20px 10px;
+  padding: 30px 10px;
 }
 
 /* Style the header links */
