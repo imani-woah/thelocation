@@ -8,76 +8,232 @@ img {
 
 body {
     margin:0;
+    font-family: 'Courier New', monospace;
+}
+
+@font-face {
+    font-family: 'Rockstar'; /*a name to be used later*/
+    src: url('assets/ChineseRocksRg-Regular.woff'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'actually';
+    src: url('assets/LaMachineCompany.woff')
+}
+
+@font-face {
+    font-family: 'Swoosh';
+    src: url('assets/Tinet.woff')
 }
 
 .container {
-    background:lightcyan;
+    background:#f9fbfc;
     /* vh means viewport height! */
-    height:100vh;
+    height:fit-content;
     /* no need for width, it's a block element so it's already 100% */
     display:flex;
     flex-direction:column;
     padding:0px;
-    gap:10px;
+    overflow:hidden;
 }
 
-.top {
-    background:lightseagreen;
-    height:25%;
-    display:flex;
-    flex-direction:row;
-    justify-content: space-between;
-    gap:20px;
-    padding:50px;
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color: #04567f;
+  padding: 0px 40px;
+  height:15vh;
+  top: 0;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
 }
 
-.top-item {
-    background:palevioletred;
-    width:100%;
+/* Style the header links */
+.header a {
+  float: left;
+  color: #f9fbfc;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 25px;
+  padding:12px;
+  font-family: 'Courier New';
+  font-weight:bolder;
+  margin: 0px 8px;
+  border: 1px solid #04567f;
+  border-radius:5px;
+}
+
+.header a.logo:hover {
+  background-color: #04567f;
+  border: 1px solid #04567f;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  border: 1px solid #f9fbfc;
+  transition:0.5s;
+  background-color: #1399d6;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: #1399d6;
+  color: white;
+}
+
+.header a.active:hover {
+  background-color: #00334e;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+  cursor:pointer;
+}
+
+.search {
+    background:#00334e;
+    width:40%;
+    height:40%;
     display:flex;
     justify-content:center;
     align-items:center;
+    color:#f9fbfc;
+    font-weight:bolder;
+    cursor:pointer;
+    border: 2px solid #f9fbfc;
+    border-radius:5px;
+}
+
+.top {
+    background:#e2588c;
+    height:5vh;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+    gap:40px;
+    padding:30px;
+}
+
+.top-item {
+    /* background:#a7214f; */
+    width:100%;
+    height:35px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#f9fbfc;
+    font-size:25px;
+    /* font-family: 'actually'; */
+    font-family:'Rockstar';
+    /* font-weight:bolder; */
+    cursor:pointer;
+    border-radius:5px;
 }
 
 .top-item:hover {
-    background:red;
+    background:#04567f;
 }
 
 .bottom {
-    background:lightyellow;
-    height:75%;
+    background:#f9fbfc;
+    /* height:75%; */
     display:flex;
-    gap:10px;
 }
 
 .left {
     background:lightblue;
-    width:50%;
+    /* width:fit-content; */
+    width:61vw;
+    height:fit-content;
     display:flex;
     justify-content: center;
     align-items:center;
 }
 
-.left-item {
-    background:palevioletred;
-    width:20%;
-    height:20%;
+.right {
+    background:#f9fbfc;
     display:flex;
+    width:35vw;
+    flex-direction:column;
     justify-content:center;
     align-items:center;
-}
-
-.right {
-    background:lightslategray;
-    width:50%;
-    display:flex;
-    flex-direction:column;
-    gap:10px;
+    margin:20px 30px 20px 30px;
 }
 
 .right-item {
+    /* background:#596f7a; */
+    background:#f9fbfc;
+    height:fit-content;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:10px 20px 10px 20px;
+    text-indent: 3em each-line;
+}
+
+.purchase {
+  background-color: #1399d6;
+  color: white;
+  height:10vh;
+  width:20vw;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  font-size:180%;
+  margin:10px 30px 10px 30px;
+  font-weight:bolder;
+  font-family: 'swoosh';
+  cursor:pointer;
+  border-radius:5px;
+}
+
+.purchase:hover {
+  background-color: #00334e;
+}
+
+.display {
+    /* background:#3a9dcf; */
+    background:#f9fbfc;
+    height:20vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    font-size:250%;
+    margin:0px;
+    font-weight:bolder;
+    font-family: 'swoosh';
+}
+
+
+.MainImage {
+    background:lightblue;
+    
+    width:fit-content;
+    height:fit-content;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.SmallImages {
+    background:#f9fbfc;
+    
+    width:fit-content;
+    height:fit-content;
+    display:flex;
+    flex-direction:column;
+}
+
+.picher {
     background:lightseagreen;
-    height:100%;
+    /* height:100%; */
     display:flex;
     justify-content:center;
     align-items:center;
