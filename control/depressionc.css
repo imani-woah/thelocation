@@ -5,7 +5,7 @@
 body {
     background:#69696e;
     overflow:scroll;
-    width:fit-content;
+    width:max-content;
     color:ghostwhite;
 }
 

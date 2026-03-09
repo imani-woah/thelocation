@@ -41,3 +41,12 @@ a:hover {
         transform:rotate(360deg);
     }
 }
+
+.foot {
+  position:fixed;
+    top:90%;
+    right:5%;
+    margin:0;
+  height: 30px;
+  color: #9292b8;
+}

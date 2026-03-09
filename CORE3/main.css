@@ -77,6 +77,11 @@ body {
   background-color: #1399d6;
 }
 
+.header a:active {
+  background-color: purple;
+  color: white;
+}
+
 /* Style the active/current link*/
 .header a.active {
   background-color: #1399d6;

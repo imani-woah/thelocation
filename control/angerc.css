@@ -16,7 +16,7 @@ body {
 }
 
 a {
-    color:#a7a7e3;
+    color:ghostwhite;
     background:#525258;
     display:flex;
     margin:10px;
@@ -30,7 +30,7 @@ a {
 }
 
 a:hover {
-    color: #2d2d4d;
+    color: #a7a7e3;
     transition: 1s;
     text-decoration: none;
 }
