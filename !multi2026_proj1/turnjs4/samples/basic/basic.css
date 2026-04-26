@@ -2,7 +2,9 @@
 
 body{
 	overflow:hidden;
-	background-color:#fcfcfc;
+	/* background-color:#fcfcfc; */
+	background-image:url("pages/Background.PNG");
+  	background-size: 100%;
 	margin:0;
 	padding:0;
 }
